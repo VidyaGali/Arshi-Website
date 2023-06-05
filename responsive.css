@@ -1,0 +1,1023 @@
+@media screen and (min-device-width : 1px) and (max-device-width : 480px) {
+  .fixed-top {
+    position: fixed;
+    width: 100%;
+    height: 70px !important;
+    background: rgba(40, 58, 90, 0.9) !important;
+    z-index: 999;
+  }
+
+
+
+  .fixed-top .navbar-brand .navbar-toggle {
+    position: absolute;
+    left: 80% !important;
+  } 
+  
+  
+  .fixed-top .navbar-nav {
+    padding-right: 0px;
+  }
+
+
+
+  .navbar-brand {
+    display: block;
+    font-size: 1.9rem;
+    position: fixed;
+    top: 5px;
+    left: 50px;
+  }
+
+  .navbar-toggle {
+    display: block;
+    color: #000;
+    position: absolute;
+    top: 25px;
+    left: 92% !important;
+    padding: 5px 8px;
+    border: none;
+  }
+
+
+ .navbar .navbar-nav {
+    background-color: #fff;
+    position: fixed;
+    left: 0%;
+    right:-1%;
+    top: 80px;
+    width: 90%;
+    height: 80%;
+    display: block;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    transition: 1s;
+    gap: 0;
+    z-index: 9999;
+    border-radius: 25px;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+  }
+
+
+  .navbar-nav li a {
+    display: block;
+    position: relative;
+    top:40px;
+    left:50px;
+    color: #37517e !important;
+    padding: 10px 20px;
+    font-weight: 500;
+    outline: none;
+  }
+
+
+  .navbar-nav li a.active{
+    color:#007bff !important;
+      }
+
+  .btn-navbar {
+    position: absolute;
+    top: 0px;
+    z-index: 999;
+    left: 60%;
+    text-align: center;
+    padding-top: 5px;
+    width: 8rem;
+    height: 35px;
+    margin-top: 15px;
+    display: inline-block;
+  }
+
+  
+
+
+  .dropdown-menu{
+    /* display: inline-block; */
+    width: 20%;
+    position: absolute;
+    left: 0% !important;
+    top:0px;
+    margin-left: 15%;
+    margin-top: 35px;
+  }
+
+  .dropdown-menu li a{
+    display: contents;
+    padding: 10px;
+    }
+
+  
+  /*----------------------------------------------------------------------------------
+    #main or banner
+------------------------------------------------------------------------------------*/
+  .banner {
+    height: 100%;
+    text-align: center;
+    padding-bottom: 3rem;
+  }
+
+  .banner-head {
+    margin-top: 75%;
+    text-align: center;
+    width: 96%;
+  }
+
+  .banner-ing-right{
+    z-index: 10;
+    bottom: -20px;
+  }
+
+  .button_group {
+    text-align: center;
+    margin-inline: 10%;
+  }
+
+  .btn-secondary {
+    width: 10rem;
+    font-size: 0.8rem;
+    margin-top: 20px;
+  }
+
+  .video {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    width: 10rem;
+  }
+
+  .video h6 {
+    font-size: 0.9rem;
+    width: 100%;
+  }
+
+  /*----------------------------------------------------------------------------------
+    #Gallery
+------------------------------------------------------------------------------------*/
+  #gallery {
+    padding-bottom: 15rem;
+    text-align: center;
+    padding-inline-start: 50px;
+    }
+
+
+
+  /*----------------------------------------------------------------------------------
+    #About Us
+------------------------------------------------------------------------------------*/
+  .about {
+    padding-bottom: 3rem;
+  }
+
+  .abt-menu li {
+    text-align: left !important;
+  }
+
+  /*----------------------------------------------------------------------------------
+    #middle-about
+------------------------------------------------------------------------------------*/
+
+  .middle-about {
+    padding-bottom: 3rem;
+  }
+
+  /*----------------------------------------------------------------------------------
+      #bottom-about
+  ------------------------------------------------------------------------------------*/
+  .bottom-about {
+    padding-bottom: 3rem;
+  }
+
+  .abt-bottom-content {
+    margin-top: 30px;
+  }
+
+
+  /*----------------------------------------------------------------------------------
+    #Services
+------------------------------------------------------------------------------------*/
+  .services {
+    padding-bottom: 3rem;
+  }
+
+  .service-card {
+    width: 95%;
+    max-height: 90%;
+    margin-top: 20px;
+    margin-left: 10px;
+
+  }
+
+  
+.gallery .gallery-filter .filter-item {
+padding: 10px 15px !important;
+}
+
+
+
+  /*---------------------------------------------------------------------------------
+      #call action
+  ------------------------------------------------------------------------------------*/
+  .call-to {
+    text-align: center;
+  }
+
+  /*---------------------------------------------------------------------------------
+      #team
+  ------------------------------------------------------------------------------------*/
+  .team {
+  padding-bottom: 3rem;
+  }
+
+  .team-card {
+    width: 94%;
+  }
+
+  /*----------------------------------------------------------------------------------
+      #Price
+  ------------------------------------------------------------------------------------*/
+  .price {
+    padding-bottom: 3rem;
+  }
+
+  .price-card {
+    width: 95%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+
+  .price-card-active {
+    width: 95%;
+    margin-left: 10px;
+  }
+
+  /*----------------------------------------------------------------------------------
+      #FAQ
+  ------------------------------------------------------------------------------------*/
+  .faq {
+    padding-bottom: 3rem;
+  }
+
+  .card {
+    width: 95%;
+    margin-left: 10px;
+  }
+
+  /*----------------------------------------------------------------------------------
+      #Contact
+  ------------------------------------------------------------------------------------*/
+  .contact {
+    padding-bottom: 5rem;
+  }
+
+  .contact-right {
+    width: 95%;
+    margin-left: 10px;
+    margin-top: 40px;
+
+  }
+
+  .contact-left {
+    width: 95%;
+    margin-left: 10px;
+  }
+
+
+  .contact .map iframe {
+    width: 100%;
+  }
+
+  /*----------------------------------------------------------------------------------
+      #Join Us
+  ------------------------------------------------------------------------------------*/
+  .join {
+    padding-bottom: 3rem;
+  }
+
+
+  .join .form-group input {
+    width: 90%;
+  }
+
+
+  .join .form-group button {
+    position: absolute;
+    right: 6%;
+
+  }
+
+
+  /*---------------------------------------------------------------------------------
+      #Footer
+  ------------------------------------------------------------------------------------*/
+  .footer {
+    padding-bottom: 3rem;
+  }
+
+  .footer-content {
+    margin-top: 20px;
+    margin-left: 0px;
+  }
+
+  .footer-content .para {
+    width: 23%;
+  }
+
+  .footer-content h6 {
+    margin-top: 20px;
+    padding-bottom: 10px;
+  }
+
+
+
+
+  /*----------------------------------------------------------------------------------
+      #Copy
+  ------------------------------------------------------------------------------------*/
+  .copy {
+    width: 100%;
+    height: 95px;
+    padding: 20px;
+
+  }
+
+
+  .left-copy {
+    text-align: center !important;
+  }
+
+  .right-copy {
+    text-align: center !important;
+  }
+
+}
+
+
+
+
+@media screen and (min-width : 481px) and (max-width : 768px) {
+
+  .fixed-top {
+    position: fixed;
+    width: 100%;
+    height: 70px !important;
+    background: rgba(40, 58, 90, 0.9) !important;
+    z-index: 99;
+  }
+
+
+
+  .fixed-top .navbar-brand .navbar-toggle {
+    position: absolute;
+    left: 80% !important;
+  }
+  .fixed-top .navbar-nav {
+    padding-right: 0px;
+  }
+
+
+
+  .navbar-brand {
+    display: block;
+    font-size: 1.9rem;
+    position: fixed;
+    top: 5px;
+    left: 50px;
+  }
+
+  .navbar-toggle {
+    display: block;
+    color: #000;
+    position: absolute;
+    top: 25px;
+    left: 92% !important;
+    padding: 5px 8px;
+    border: none;
+  }
+
+
+  .navbar  .navbar-nav {
+    background-color: #fff;
+    position: fixed;
+    left: 20%;
+    right: 1%;
+    top: 80px;
+    width: 90%;
+    height: 80%;
+    display: block;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    transition: 1s;
+    gap: 0;
+    z-index: 10000;
+    border-radius: 25px;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+  }
+
+
+  .navbar-nav li a {
+    display: block;
+    position: relative;
+    top:40px;
+    left:50px;
+    color: #37517e !important;
+    padding: 10px 20px;
+    font-weight: 500;
+    outline: none;
+  }
+
+   .navbar-nav li a.active{
+color:#007bff !important;
+  }
+
+  .btn-navbar {
+    position: absolute;
+    top: 0px;
+    z-index: 999;
+    left: 70%;
+    text-align: center;
+    padding-top: 5px;
+    width: 8rem;
+    height: 35px;
+    margin-top: 15px;
+    display: block;
+  }
+
+
+
+  /*----------------------------------------------------------------------------------
+    #main or banner
+------------------------------------------------------------------------------------*/
+  .banner {
+height: 100%;
+padding-bottom: 3rem;
+  }
+
+  .banner-head {
+    margin-top: 75%;
+    text-align: center;
+    width: 96%;
+  }
+
+  .button_group {
+    text-align: center;
+    margin-inline: 10%;
+  }
+
+  .btn-secondary {
+    width: 10rem;
+    font-size: 0.8rem;
+    margin-top: 20px;
+  }
+
+  .video {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    width: 10rem;
+  }
+
+  .video h6 {
+    font-size: 0.9rem;
+    width: 100%;
+  }
+
+  /*----------------------------------------------------------------------------------
+    #Gallery
+------------------------------------------------------------------------------------*/
+  #gallery {
+    padding-bottom: 16rem;
+    padding-inline-start: 5rem;
+  }
+
+
+  /*----------------------------------------------------------------------------------
+    #About Us
+------------------------------------------------------------------------------------*/
+  .about {
+    padding-bottom: 3rem;
+  }
+
+  .abt-menu li {
+    text-align: left !important;
+  }
+
+  /*----------------------------------------------------------------------------------
+    #middle-about
+------------------------------------------------------------------------------------*/
+
+  .middle-about {
+    padding-bottom: 3rem;
+
+  }
+
+  /*----------------------------------------------------------------------------------
+      #bottom-about
+  ------------------------------------------------------------------------------------*/
+  .bottom-about {
+    padding-bottom: 3rem;
+
+  }
+
+  .abt-bottom-content {
+    margin-top: 30px;
+  }
+
+
+  /*----------------------------------------------------------------------------------
+    #Services
+------------------------------------------------------------------------------------*/
+  .services {
+    padding-bottom: 3rem;
+
+  }
+
+  .service-card {
+    width: 95%;
+    max-height: 90%;
+    margin-top: 20px;
+    margin-left: 10px;
+
+  }
+
+
+  /*---------------------------------------------------------------------------------
+      #call action
+  ------------------------------------------------------------------------------------*/
+  .call-to {
+    padding-bottom: 3rem;
+    text-align: center;
+  }
+
+  /*---------------------------------------------------------------------------------
+      #team
+  ------------------------------------------------------------------------------------*/
+  .team {
+    padding-bottom: 3rem;
+
+  }
+
+  .team-card {
+    width: 94%;
+  }
+
+  /*----------------------------------------------------------------------------------
+      #Price
+  ------------------------------------------------------------------------------------*/
+  .price {
+    padding-bottom: 3rem;
+
+  }
+
+  .price-card {
+    width: 95%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+
+  .price-card-active {
+    width: 95%;
+    margin-left: 10px;
+  }
+
+  /*----------------------------------------------------------------------------------
+      #FAQ
+  ------------------------------------------------------------------------------------*/
+  .faq {
+    padding-bottom: 3rem;
+
+  }
+
+  .card {
+    width: 95%;
+    margin-left: 10px;
+  }
+
+  /*----------------------------------------------------------------------------------
+      #Contact
+  ------------------------------------------------------------------------------------*/
+  .contact {
+    padding-bottom: 5rem;
+
+  }
+
+  .contact-right {
+    width: 95%;
+    margin-left: 10px;
+    margin-top: 40px;
+
+  }
+
+  .contact-left {
+    width: 95%;
+    margin-left: 10px;
+  }
+
+
+  .contact .map iframe {
+    width: 100%;
+  }
+
+  /*----------------------------------------------------------------------------------
+      #Join Us
+  ------------------------------------------------------------------------------------*/
+  .join {
+    padding-bottom: 3rem;
+
+  }
+
+
+  .join .form-group input {
+    width: 90%;
+  }
+
+
+  .join .form-group button {
+    position: absolute;
+    right: 6%;
+
+  }
+
+
+  /*---------------------------------------------------------------------------------
+      #Footer
+  ------------------------------------------------------------------------------------*/
+  .footer {
+    padding-bottom: 3rem;
+
+  }
+
+  /* .footer-content {
+    margin-top: 20px;
+    margin-left: 0px;
+  } */
+
+  .footer-content .para {
+    width: 23%;
+  }
+/* 
+  .footer-content h6 {
+    margin-top: 20px;
+    padding-bottom: 10px;
+  } */
+
+
+
+
+  /*----------------------------------------------------------------------------------
+      #Copy
+  ------------------------------------------------------------------------------------*/
+  .copy {
+    width: 100%;
+    height: 95px;
+    padding: 20px;
+
+  }
+
+
+  .left-copy {
+    text-align: center !important;
+  }
+
+  .right-copy {
+    text-align: center !important;
+  }
+
+
+}
+
+
+
+@media screen and (min-width : 769px) and (max-width : 1200px) {
+
+
+  .fixed-top {
+    position: fixed;
+    width: 100%;
+    height: 70px !important;
+    background: rgba(40, 58, 90, 0.9) !important;
+    z-index: 99;
+  }
+
+
+
+  .fixed-top .navbar-brand .navbar-toggle {
+    position: absolute;
+    left: 80% !important;
+  }
+
+  .fixed-top .navbar-nav {
+    padding-right: 0px;
+  }
+
+
+
+  .navbar-brand {
+    display: block;
+    font-size: 1.9rem;
+    position: fixed;
+    top: 5px;
+    left: 50px;
+  }
+
+  .navbar-toggle {
+    display: block;
+    color: #000;
+    position: absolute;
+    top: 25px;
+    left: 92% !important;
+    padding: 5px 8px;
+    border: none;
+  }
+
+
+  .navbar  .navbar-nav {
+    background-color: #fff;
+    position: fixed;
+    left: 20%;
+    right: 1%;
+    top: 80px;
+    width: 90%;
+    height: 75%;
+    display: block;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    transition: 1s;
+    gap: 0;
+    z-index: 10000;
+    border-radius: 25px;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+  }
+
+
+  .navbar-nav li a {
+    display: block;
+    position: relative;
+    top:20px;
+    left:20px;
+    color: #37517e !important;
+    padding:10px 0px !important;
+    font-weight: 500 !important;
+    outline: none;
+    font-size:1rem !important;
+  }
+
+  .navbar-nav li a.active{
+color:#007bff !important;
+  }
+
+  .btn-navbar {
+    position: absolute;
+    top: 0px;
+    z-index: 999;
+    left: 70%;
+    text-align: center;
+    padding-top: 5px;
+    width: 8rem;
+    height: 35px;
+    margin-top: 15px;
+    display: block;
+  }
+
+.dropdown,.dropdown-submenu{
+  width: 30%;
+}
+
+  .dropdown-menu>li>a:hover:after {
+    text-decoration: underline;
+    transform: rotate(95deg);
+  }
+  
+  
+  .dropdown-submenu>.dropdown-menu {
+    width: 60% !important;
+    left: 50% !important;
+    top: 12%  !important;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  
+  /*----------------------------------------------------------------------------------
+    #main or banner
+------------------------------------------------------------------------------------*/
+  .banner {
+padding-bottom: 50rem;
+  }
+
+  .banner-ing-right{
+    margin-top:60px;
+  }
+
+  /*----------------------------------------------------------------------------------
+    #Gallery
+------------------------------------------------------------------------------------*/
+  #gallery {
+    padding-bottom: 10rem;
+    padding-inline-start: 80px;
+  }
+
+
+  /*----------------------------------------------------------------------------------
+    #About Us
+------------------------------------------------------------------------------------*/
+  .about {
+    padding-bottom: 5rem;
+
+  }
+
+  .abt-menu li {
+    text-align: left !important;
+  }
+
+  /*----------------------------------------------------------------------------------
+    #middle-about
+------------------------------------------------------------------------------------*/
+
+  .middle-about {
+    padding-bottom: 5rem;
+  }
+
+  .mid-abt-img {
+    margin-top: 30px
+  }
+
+  /*----------------------------------------------------------------------------------
+      #bottom-about
+  ------------------------------------------------------------------------------------*/
+  .bottom-about {
+    padding-bottom: 5rem;
+  }
+
+  .abt-bottom-content {
+    margin-top: 30px;
+  }
+
+
+  /*----------------------------------------------------------------------------------
+    #Services
+------------------------------------------------------------------------------------*/
+  .services {
+    padding-bottom: 5rem;
+  }
+
+  .service-card {
+    width: 95%;
+    max-height: 90%;
+    margin-top: 20px;
+    margin-left: 10px;
+
+  }
+
+
+  /*---------------------------------------------------------------------------------
+      #call action
+  ------------------------------------------------------------------------------------*/
+  .call-to {
+    padding-bottom: 5rem;
+    text-align: center;
+  }
+
+  
+.gallery .gallery-item .gallery-item-inner {
+  height: 300px; 
+  width: 100%;
+  overflow: hidden;
+}
+
+.gallery .gallery-item .gallery-item-inner img {
+  width: 100%;
+  height: 100%;
+  transition: 0.3s;
+  border: none;
+  outline: none;
+}
+
+  /*---------------------------------------------------------------------------------
+      #team
+  ------------------------------------------------------------------------------------*/
+  .team {
+    padding-bottom: 5rem;
+  }
+
+  .team-card {
+    width: 100%;
+  }
+
+  /*----------------------------------------------------------------------------------
+      #Price
+  ------------------------------------------------------------------------------------*/
+  .price {
+    padding-bottom: 5rem;
+  }
+
+  .price-card {
+    width: 95%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+
+  .price-card-active {
+    width: 95%;
+    margin-left: 10px;
+  }
+
+  /*----------------------------------------------------------------------------------
+      #FAQ
+  ------------------------------------------------------------------------------------*/
+  .faq {
+    padding-bottom: 5rem;
+  }
+
+  .card {
+    width: 95%;
+    margin-left: 10px;
+  }
+
+  /*----------------------------------------------------------------------------------
+      #Contact
+  ------------------------------------------------------------------------------------*/
+  .contact {
+    padding-bottom: 5rem;
+  }
+
+  .contact-right {
+    width: 95%;
+    margin-left: 10px;
+    margin-top: 40px;
+
+  }
+
+  .contact-left {
+    width: 95%;
+    margin-left: 10px;
+  }
+
+
+  .contact .map iframe {
+    width: 100%;
+  }
+
+  /*----------------------------------------------------------------------------------
+      #Join Us
+  ------------------------------------------------------------------------------------*/
+  .join {
+    padding-bottom: 5rem;
+  }
+
+
+  .join .form-group input {
+    width: 90%;
+  }
+
+
+  .join .form-group button {
+    position: absolute;
+    right: 6%;
+
+  }
+
+
+  /*---------------------------------------------------------------------------------
+      #Footer
+  ------------------------------------------------------------------------------------*/
+  .footer {
+    padding-bottom: 5rem;
+  }
+
+  .footer-content {
+    margin-top: 20px;
+    margin-left: 0px;
+  }
+
+  .footer-content .para {
+    width: 50%;
+  }
+
+  .footer-content h6 {
+    margin-top: 20px;
+    padding-bottom: 10px;
+  }
+
+
+
+
+  /*----------------------------------------------------------------------------------
+      #Copy
+  ------------------------------------------------------------------------------------*/
+  .copy {
+    width: 100%;
+    height: 60px;
+    padding: 20px;
+
+  }
+}
